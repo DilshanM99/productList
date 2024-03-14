@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    transition: 1s;
+    border: 3px solid #034661;
+}
+
+.details{
+    text-align: center;
+}
+
+.container:hover{
+    box-shadow: 0 5px 15px rgba(0, 66, 87, 0.8);transform: scale(1.01);
+}
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1F6E8C;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #034661;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.quantity{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #034661;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+}
